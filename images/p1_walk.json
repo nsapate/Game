@@ -1,0 +1,99 @@
+{"frames": {
+
+"00":
+{
+	"frame": {"x":0,"y":0,"w":67,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":5,"w":73,"h":97},
+	"sourceSize": {"w":73,"h":97}
+},
+"01":
+{
+	"frame": {"x":67,"y":0,"w":66,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":4,"w":73,"h":97},
+	"sourceSize": {"w":73,"h":97}
+},
+"02":
+{
+	"frame": {"x":133,"y":0,"w":67,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":3,"w":73,"h":97},
+	"sourceSize": {"w":73,"h":97}
+},
+"03":
+{
+	"frame": {"x":0,"y":93,"w":67,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":1,"w":73,"h":97},
+	"sourceSize": {"w":73,"h":97}
+},
+"04":
+{
+	"frame": {"x":67,"y":93,"w":66,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":73,"h":97},
+	"sourceSize": {"w":73,"h":97}
+},
+"05":
+{
+	"frame": {"x":133,"y":93,"w":71,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":73,"h":97},
+	"sourceSize": {"w":73,"h":97}
+},
+"06":
+{
+	"frame": {"x":0,"y":186,"w":71,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":73,"h":97},
+	"sourceSize": {"w":73,"h":97}
+},
+"07":
+{
+	"frame": {"x":71,"y":186,"w":71,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":73,"h":97},
+	"sourceSize": {"w":73,"h":97}
+},
+"08":
+{
+	"frame": {"x":142,"y":186,"w":70,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":3,"w":73,"h":97},
+	"sourceSize": {"w":73,"h":97}
+},
+"09":
+{
+	"frame": {"x":0,"y":279,"w":71,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":73,"h":97},
+	"sourceSize": {"w":73,"h":97}
+},
+"10":
+{
+	"frame": {"x":71,"y":279,"w":67,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":5,"w":73,"h":97},
+	"sourceSize": {"w":73,"h":97}
+}},
+"meta": {
+	"app": "Adobe Flash CS6",
+	"version": "12.0.2.529",
+	"image": "p1_walk.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":512},
+	"scale": "1"
+}
+}
