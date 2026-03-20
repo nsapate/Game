@@ -1,93 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" media="screen" type="text/css" href="style.css" />
     <title>Dodge Alert</title>
-    <meta
-        name="description"
-        content="Dodge Alert is a college-era 2D platformer by Ninad Sapate, rebuilt as a polished static browser experience."
-    >
-    <link rel="stylesheet" media="screen" type="text/css" href="style.css">
-</head>
-<body>
-    <div class="page-shell">
-        <header class="hero">
-            <div class="hero-copy">
-                <p class="eyebrow">College Project Rebuild</p>
-                <h1>Dodge Alert</h1>
-                <p class="lede">
-                    A side-scrolling platformer built during college and cleaned up to run as a modern static browser game.
-                    Collect every gem, avoid the patrols, and survive the moving platforms.
-                </p>
-                <div class="action-row">
-                    <button id="startGameButton" class="primary-button" type="button">Start Run</button>
-                    <button id="soundButton" class="secondary-button" type="button" aria-pressed="true">Sound On</button>
-                </div>
-            </div>
-
-            <aside class="status-card">
-                <span class="status-label">Game Status</span>
-                <strong id="stateLabel">Booting</strong>
-                <p id="stateDetail">Loading the game shell.</p>
-            </aside>
-        </header>
-
-        <main class="content-grid">
-            <section class="play-panel">
-                <div class="panel-heading">
-                    <div>
-                        <p class="panel-kicker">Playable Demo</p>
-                        <h2>Jump straight in</h2>
-                    </div>
-                    <p class="panel-copy">
-                        The original Phaser build is still intact underneath. The outer shell now makes it easier to launch,
-                        understand, and share.
-                    </p>
-                </div>
-
-                <div class="game-frame">
-                    <div id="gameContainer" aria-label="Dodge Alert game canvas"></div>
-                </div>
-            </section>
-
-            <aside class="info-rail">
-                <section class="info-card">
-                    <p class="card-kicker">Controls</p>
-                    <ul class="key-list">
-                        <li><span>Move</span><strong>Left / Right Arrows</strong></li>
-                        <li><span>Jump</span><strong>Up Arrow</strong></li>
-                        <li><span>Start / Restart</span><strong>Up, Enter, or Space</strong></li>
-                        <li><span>Sound</span><strong>Toggle Button</strong></li>
-                    </ul>
-                </section>
-
-                <section class="info-card">
-                    <p class="card-kicker">What Changed</p>
-                    <ul class="note-list">
-                        <li>Responsive presentation around the fixed Phaser canvas</li>
-                        <li>Modern HTTPS-safe styling with no external font dependency</li>
-                        <li>Cleaner level teardown and moving-platform handling</li>
-                        <li>DOM controls for start state and sound state</li>
-                    </ul>
-                </section>
-
-                <section class="info-card">
-                    <p class="card-kicker">Project Notes</p>
-                    <p class="card-copy">
-                        Built with Phaser and tilemap assets. The goal here is not a full rewrite, just a pragmatic refresh
-                        that keeps the original game playable and presentable on GitHub Pages.
-                    </p>
-                </section>
-            </aside>
-        </main>
-    </div>
-
-    <script type="text/javascript" src="js/phaser.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/phaser.min.js"></script>
     <script type="text/javascript" src="js/load.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/play.js"></script>
     <script type="text/javascript" src="js/end.js"></script>
     <script type="text/javascript" src="js/game.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+</head>
+<body>
+	<div id="content">
+	    <div id="gameContainer"> </div>
+	</div>
 </body>
 </html>
